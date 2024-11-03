@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .scp-detail {
+    max-width: 800px;  /* Increased max width */
+    margin: 20px auto;
+    padding: 30px;  /* Increased padding */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;  /* Increased gap for spacing */
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 12px;  /* Increased padding for larger input area */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 18px;  /* Increased font size */
+  }
+  
+  textarea {
+    min-height: 120px;  /* Ensures textarea is comfortably large */
+  }
+  
+  button {
+    padding: 12px 20px;  /* Increased padding for larger button size */
+    margin-top: 15px;
+    border: none;
+    border-radius: 6px;  /* Increased border radius */
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .edit-button, .save-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .back-button {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  button:hover {
+    opacity: 0.85;
+  }
+  
+  @media (max-width: 768px) {
+    .scp-detail {
+      padding: 20px;  /* Maintain good padding on smaller screens */
+    }
+  
+    button {
+      width: 100%;  /* Ensure buttons are full-width on smaller devices */
+    }
+  }
+  
